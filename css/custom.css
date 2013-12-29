@@ -8,3 +8,18 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+
+.boxes
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E7E1E1;
+}
+
+.footer
+{
+  padding-top: 19px;
+  margin-top: 25px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
