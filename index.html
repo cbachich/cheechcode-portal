@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="css/index.less" />
+    <script src="js/less-1.5.0.min.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,7 +18,15 @@
   <body>
     <div class="container">
       <div class="header">
-        <h3>CheechCode</h3>
+        <ul class="nav nav-pills pull-right">
+          <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+        <h3><a href="index.html">CheechCode</a></h3>
       </div>
       <div class="jumbotron">
         <h1>Welcome to CheechCode!</h1>
@@ -26,6 +35,32 @@
         </p>
       </div>
       <div class="row projects text-center">
+
+        <div class="col-md-3 boxes">
+          <h4><a href="http://cheechpool.com">CheechPool.com</a></h4>
+          <p>
+            Provides a weekly pick sheet to users for the television show Survivor. Users select which 
+            player’s they think will be voted out and win challenges. After the show, an admin provides 
+            results to the website and a scoreboard is automatically generated.
+          </p>
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="http://rubyonrails.org/">Ruby on Rails</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 boxes">
+          <h4><a href="http://americoco.com">AmeriCoCO.com</a></h4>
+          <p>
+            Builds a professional website for small businesses and individuals. All content on the
+            website can be dynamically changed with an admin account, including pictures and text.
+          </p>
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="http://rubyonrails.org/">Ruby on Rails</a>
+          </p>
+        </div>
+
         <div class="col-md-3 boxes">
           <h4><a href="http://cheechcode.com/mapsearch">Simple Map Search</a></h4>
           <p>
@@ -39,6 +74,7 @@
             <a href="http://wiki.openstreetmap.org/wiki/Nominatim">Nominatim (Search OSM Data)</a>
           </dl>
         </div>
+
       </div>
       <div class="footer">
         <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script> Christopher Bachicha</p>
