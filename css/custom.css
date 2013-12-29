@@ -1,6 +1,18 @@
 .jumbotron
 {
   text-align: center;
+  background-color: #37BFFF;
+  color: #FFFFFF;
+}
+
+.jumbotron a
+{
+  color: #FFFFFF;
+}
+
+a
+{
+  color: #37BFFF;
 }
 
 .projects
