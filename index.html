@@ -31,87 +31,157 @@
       <div class="jumbotron">
         <h1>Welcome to CheechCode!</h1>
         <p class="lead">
-        Home of side projects designed by <a href="http://www.linkedin.com/in/cbachicha">Christopher Bachicha</a>.
+        Home of projects designed and developed by <a href="http://www.linkedin.com/in/cbachicha">Christopher Bachicha</a>.
         </p>
       </div>
       <div class="row projects text-center">
 
-        <div class="col-md-3 boxes">
-          <div class="border">
-            <h4><a href="https://geodata.co.gov">GeoData Cache</a></h4>
-            <p>
-		I developed the GeoData Cache website for the Governor’s Office of Information 
-              	Technology. The purpose of the website was to give government agencies in Colorado
-		a single source to share geographic data from the catastrophic flooding in 2013.
-		The application was built using open source software to display footprint geometry
-		on an interactive map and provided users with the ability to search, filter, and
-		download data. Footprint attributes and geometry were stored in a PostGIS database.
-            </p>
-            <p>
-              <strong>External Sources</strong><br>
-              <a href="http://rubyonrails.org/">Ruby on Rails</a><br>
-              <a href="http://leafletjs.com/">Leaflet</a><br>
-              <a href="http://maps.stamen.com/">Stamen</a><br>
-              <a href="http://jquery.com/">JQuery</a><br>
-              <a href="http://postgis.net/">PostGIS</a><br>
-              <a href="http://wiki.openstreetmap.org/wiki/Nominatim">Nominatim</a>
-            </p>
-          </div>
+        <div class="col-md-4">
+          <img src="img/co_logo.png" />
         </div>
 
-        <div class="col-md-3 boxes">
-          <div class="border">
-            <h4><a href="https://online.sanborn.com/">Sanborn Online</a></h4>
-            <p>
-		I developed Sanborn Online, the digital marketplace for Sanborn acquired products.
-		The application utilizes open software to display areas on a map that are available
-		for purchase from Sanborn.
-            </p>
-            <p>
-              <strong>External Sources</strong><br>
-              <a href="http://rubyonrails.org/">Ruby on Rails</a><br>
-              <a href="http://leafletjs.com/">Leaflet</a><br>
-              <a href="http://maps.stamen.com/">Stamen</a><br>
-              <a href="http://jquery.com/">JQuery</a><br>
-              <a href="http://postgis.net/">PostGIS</a><br>
-            </dl>
-          </div>
+        <div class="col-md-6">
+          <h4><a href="https://geodata.co.gov">GeoData Cache</a></h4>
+          <p>
+  I developed the GeoData Cache website for the Governor's Office of Information
+  Technology. The purpose of the website was to give government agencies in Colorado
+  a single source to share geographic data from the catastrophic flooding in 2013.
+  The application was built on the Ruby on Rails framework, utilizing Leaflet and
+  JQuery for map interaction. Footprint attributes and geometry were stored in a
+  PostgreSQL database using the geospatial PostGIS extension.
+          </p>
         </div>
 
-        <div class="col-md-3 boxes">
-          <div class="border">
-            <h4><a href="http://americoco.com">AmeriCoCO.com</a></h4>
-            <p>
-              Builds a professional website for small businesses and individuals. All content on the
-              website can be dynamically changed with an admin account, including pictures and text.
-            </p>
-            <p>
-              <a href="https://github.com/cbachich/Americo">Github Repository</a>
-            </p>
-            <p>
-              <strong>External Sources</strong><br>
-              <a href="http://rubyonrails.org/">Ruby on Rails</a>
-            </p>
-          </div>
+        <div class="col-md-2">
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="http://rubyonrails.org/">Ruby on Rails</a><br>
+            <a href="http://leafletjs.com/">Leaflet</a><br>
+            <a href="http://maps.stamen.com/">Stamen</a><br>
+            <a href="http://jquery.com/">JQuery</a><br>
+            <a href="http://www.postgresql.org/">PostgreSQL</a><br>
+            <a href="http://postgis.net/">PostGIS</a><br>
+            <a href="http://wiki.openstreetmap.org/wiki/Nominatim">Nominatim</a>
+          </p>
         </div>
 
-        <div class="col-md-3 boxes">
-          <div class="border">
-            <h4><a href="http://cheechcode.com">CheechCode.com</a></h4>
-            <p>
-              The website you are currently browsing. This is a simple HTTP website built using Bootstrap
-              for a better mobile experience, as well as LESS for easier CSS styling.
-            </p>
-            <p>
-              <a href="https://github.com/cbachich/cheechcode-portal">Github Repository</a>
-            </p>
-            <p>
-              <strong>External Sources</strong><br>
-              <a href="http://getbootstrap.com/">Bootstrap 3</a><br>
-              <a href="http://www.lesscss.org/">LESS</a><br>
-            </dl>
-          </div>
+      </div>
+
+      <div class="row projects text-center">
+
+        <div class="col-md-4">
+          <img src="img/sanborn-online.png" />
         </div>
+
+        <div class="col-md-6">
+          <h4><a href="https://online.sanborn.com/">Sanborn Online</a></h4>
+          <p>
+  I designed and developed Sanborn Online, the digital marketplace for Sanborn acquired products.
+  The application was built on the Ruby on Rails framework, utilizing Leaflet and JQuery for map
+  interaction. Footprint GeoJSON was served through GeoServer hooked up to a PostgreSQL database
+  using the geospatial PostGIS extension.
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="http://rubyonrails.org/">Ruby on Rails</a><br>
+            <a href="http://leafletjs.com/">Leaflet</a><br>
+            <a href="http://maps.stamen.com/">Stamen</a><br>
+            <a href="http://jquery.com/">JQuery</a><br>
+            <a href="http://www.postgresql.org/">PostgreSQL</a><br>
+            <a href="http://postgis.net/">PostGIS</a><br>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row projects text-center">
+
+        <div class="col-md-4 dabomb">
+          <h3>Da<strong class="logo">Bomb</strong> Video</h3>
+        </div>
+
+        <div class="col-md-6">
+          <h4><a href="http://cheechcode.com/dabomb">DaBomb HTML5 Video Player</a></h4>
+          <p>
+            A technical demo to show case my understanding of HTML5 and JavaScript. The
+            video player framework was built with AngularJS on the front end and a Ruby
+            on Rails API on the backend. The demo allows a user to control a video and
+            add annotations on the screen during designated timeframes. The annotation
+            text and color is configurable. The user also has the ability to sync annotations
+            from the server, update them, and then sync them back to the server.
+          </p>
+          <p>
+            <a href="https://github.com/cbachich/dabomb-fe">Front End Github Repository</a><br>
+            <a href="https://github.com/cbachich/dabomb-api">Back End Github Repository</a>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="https://angularjs.org/">AngularJS</a><br>
+            <a href="http://jquery.com/">JQuery</a><br>
+            <a href="http://refreshless.com/nouislider/">noUiSlider</a><br>
+            <a href="http://getbootstrap.com/">Bootstrap 3</a><br>
+            <a href="http://rubyonrails.org/">Ruby on Rails</a><br>
+            <a href="http://www.postgresql.org/">PostgreSQL</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row projects text-center">
+
+        <div class="col-md-4">
+          <img src="img/americo_logo_ultra.png" />
+        </div>
+
+        <div class="col-md-6">
+          <h4><a href="http://americoco.com">AmeriCoCO.com</a></h4>
+          <p>
+            Builds a professional website for small businesses and individuals. All content on the
+            website can be dynamically changed with an admin account, including pictures and text.
+          </p>
+          <p>
+            <a href="https://github.com/cbachich/Americo">Github Repository</a>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="http://rubyonrails.org/">Ruby on Rails</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row projects text-center">
+
+        <div class="col-md-4 example_logo">
+          <h3>Cheech<strong class="logo">Code</strong></h3>
+        </div>
+
+        <div class="col-md-6">
+          <h4><a href="http://cheechcode.com">CheechCode.com</a></h4>
+          <p>
+            The website you are currently browsing. This is a simple HTTP website built using Bootstrap
+            for a better mobile experience, as well as LESS for easier CSS styling.
+          </p>
+          <p>
+            <a href="https://github.com/cbachich/cheechcode-portal">Github Repository</a>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <p>
+            <strong>External Sources</strong><br>
+            <a href="http://getbootstrap.com/">Bootstrap 3</a><br>
+            <a href="http://www.lesscss.org/">LESS</a><br>
+          </p>
+        </div>
+
       </div>
       <div class="footer">
         <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script> Christopher Bachicha</p>
